@@ -16,7 +16,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         // ✅ Allow both local dev and deployed Vercel frontend
                         .allowedOrigins(
-                                "https://freact-rho.vercel.app/"
+                                "https://freact-six.vercel.app/"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
